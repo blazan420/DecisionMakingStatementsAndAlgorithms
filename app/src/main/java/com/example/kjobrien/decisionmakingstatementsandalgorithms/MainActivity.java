@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
                 int randomSecureNumber = 1 + secureRandomNumber.nextInt(5);
                 Log.i("LOG", randomSecureNumber + "");
-                txtSecureRandomNumbers.setText(randomSecureNumber + "");
+                txtSecureRandomNumbers.setText(oldTextSecureNumbersValue + randomSecureNumber + "");
 
             }
         });
